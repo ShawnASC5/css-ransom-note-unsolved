@@ -56,7 +56,7 @@ body {
 .whyWLetter {
   font-size: 72px;
   font-weight: bold;
-  color: aqua;
+  color: #00ffff;
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Piazolla', sans-serif;
@@ -65,7 +65,7 @@ body {
 .whyHLetter {
   font-size: 30px;
   font-weight: bold;
-  color: darkgoldenrod;
+  color: rgba(184, 134, 11, 1);
   text-decoration: overline;
   text-transform: lowercase;
   font-family: 'Ceviche One', sans-serif;
@@ -84,7 +84,7 @@ body {
 
 .didDLetter {
   font-size: 70px;
-  color: green;
+  color: #008000;
   font-weight: bold;
   text-decoration: overline;
   text-transform: uppercase;
@@ -142,7 +142,7 @@ body {
 
 .frontendFLetter {
   font-size: 75px;
-  color: magenta;
+  color: rgba(255, 0, 255, 0.8);
   font-weight: bold;
   text-decoration: underline;
   text-transform: uppercase;
@@ -160,7 +160,7 @@ body {
 
 .frontendOLetter {
   font-size: 60px;
-  color: lime;
+  color: #00ff00;
   font-weight: lighter;
   text-decoration: line-through;
   text-transform: capitalize;
@@ -291,7 +291,7 @@ body {
 
 .takeTLetter {
   font-size: 85px;
-  color: darkblue;
+  color: #00008b;
   font-weight: bold;
   text-decoration: underline;
   text-transform: uppercase;
@@ -345,7 +345,7 @@ font-size: 75px;
 
 .gardeningGLetter {
   font-size: 90px;
-  color: lightcoral;
+  color: rgba(240, 128, 128, 0.9);
   font-weight: bold;
   text-decoration: underline;
   text-transform: uppercase;
@@ -420,7 +420,7 @@ font-size: 75px;
 
 .becauseBLetter {
   font-size: 95px;
-  color: mediumpurple;
+  color: #9370db;
   font-weight: bold;
   text-decoration: underline;
   text-transform: uppercase;
@@ -479,7 +479,7 @@ font-size: 75px;
 
 .theyTLetter {
   font-size: 100px;
-  color: mistyrose;
+  color: rgba(255, 228, 225, 1);
   font-weight: bold;
   text-decoration: underline;
   text-transform: uppercase;
@@ -660,7 +660,7 @@ font-size: 88px;
 .theirELetter {
   font-size: 105px;
   color: salmon;
-  font-weight: lighter;
+  font-weight: 400;
   text-decoration: line-through;
   text-transform: capitalize;
   font-family: 'Raleway Dots', sans-serif;
@@ -668,7 +668,7 @@ font-size: 88px;
 .theirILetter {
   font-size: 6px;
   color: sandybrown;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Arial', sans-serif;
@@ -686,7 +686,7 @@ font-size: 88px;
 
 .rootRLetter {
   font-size: 120px;
-  color: seashell;
+  color: hsl(from color h s l);
   font-weight: bold;
   text-decoration: underline;
   text-transform: uppercase;
@@ -721,7 +721,7 @@ font-size: 88px;
 
 .skillsSLetter {
   font-size: 125px;
-  color: slategray;
+  color: #708090;
   font-weight: bold;
   text-decoration: underline;
   text-transform: uppercase;
@@ -760,7 +760,7 @@ font-size: 88px;
   font-family: 'Piazzolla', sans-serif;
 }
 .skillsSTwoLetter {
-  font-size: 11px;
+  font-size: 700px;
   color: thistle;
   font-weight: lighter;
   text-decoration: overline;
@@ -779,16 +779,26 @@ font-size: 88px;
   font-family: 'Piazzolla', sans-serif;
 }
 .exclamation-mark {
-  font-size: 13px;
-  color: turquoise;
+  font-size: 400px;
+  color: rgba(64, 224, 208, 0.7);
   font-weight: normal;
   text-decoration: overline;
   text-transform: lowercase;
   font-family: 'Ceviche One', sans-serif;
 }
-.question-mark {
+.question-mark .testclass{
   font-size: 118px;
   color: violet;
+  font-weight: lighter;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Raleway Dots', sans-serif;
+}
+
+.testclass {
+
+  color:rgb(247, 247, 247);
+  font-size: 550px;
   font-weight: lighter;
   text-decoration: line-through;
   text-transform: capitalize;
